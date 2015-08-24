@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		652768DF1B8BC19D009E35B6 /* FuzzyLang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652768DE1B8BC19D009E35B6 /* FuzzyLang.framework */; };
 		65A1BC441B8BC0AD00B32D83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1BC431B8BC0AD00B32D83 /* AppDelegate.swift */; };
 		65A1BC461B8BC0AD00B32D83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1BC451B8BC0AD00B32D83 /* ViewController.swift */; };
 		65A1BC491B8BC0AD00B32D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A1BC471B8BC0AD00B32D83 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		652768DE1B8BC19D009E35B6 /* FuzzyLang.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FuzzyLang.framework; path = "../FuzzyLang/build/Debug-iphoneos/FuzzyLang.framework"; sourceTree = "<group>"; };
 		65A1BC401B8BC0AD00B32D83 /* Main.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Main.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A1BC431B8BC0AD00B32D83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65A1BC451B8BC0AD00B32D83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				652768DF1B8BC19D009E35B6 /* FuzzyLang.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		65A1BC371B8BC0AD00B32D83 = {
 			isa = PBXGroup;
 			children = (
+				652768DE1B8BC19D009E35B6 /* FuzzyLang.framework */,
 				65A1BC421B8BC0AD00B32D83 /* Main */,
 				65A1BC571B8BC0AD00B32D83 /* MainTests */,
 				65A1BC621B8BC0AD00B32D83 /* MainUITests */,
@@ -192,6 +196,7 @@
 				TargetAttributes = {
 					65A1BC3F1B8BC0AD00B32D83 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = F49SVAG7YG;
 					};
 					65A1BC531B8BC0AD00B32D83 = {
 						CreatedOnToolsVersion = 7.0;
@@ -398,7 +403,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Main/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FuzzyLang.Main;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,7 +416,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Main/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FuzzyLang.Main;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,6 +492,7 @@
 				65A1BC6A1B8BC0AD00B32D83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65A1BC6B1B8BC0AD00B32D83 /* Build configuration list for PBXNativeTarget "MainTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +501,7 @@
 				65A1BC6D1B8BC0AD00B32D83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65A1BC6E1B8BC0AD00B32D83 /* Build configuration list for PBXNativeTarget "MainUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +510,7 @@
 				65A1BC701B8BC0AD00B32D83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
