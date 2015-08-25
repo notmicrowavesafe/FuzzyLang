@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6506D6901B8C34E9007DBF56 /* FLVerb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6506D6891B8C34E9007DBF56 /* FLVerb.swift */; };
+		6506D6911B8C34E9007DBF56 /* FLAdjective.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6506D68A1B8C34E9007DBF56 /* FLAdjective.swift */; };
+		6506D6921B8C34E9007DBF56 /* FLAdverb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6506D68B1B8C34E9007DBF56 /* FLAdverb.swift */; };
+		6506D6931B8C34E9007DBF56 /* FLArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6506D68C1B8C34E9007DBF56 /* FLArticle.swift */; };
+		6506D6941B8C34E9007DBF56 /* FLNoun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6506D68D1B8C34E9007DBF56 /* FLNoun.swift */; };
+		6506D6951B8C34E9007DBF56 /* FLPreposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6506D68E1B8C34E9007DBF56 /* FLPreposition.swift */; };
+		6506D6961B8C34E9007DBF56 /* FLWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6506D68F1B8C34E9007DBF56 /* FLWord.swift */; };
 		65A1BC211B8BBFDC00B32D83 /* FuzzyLang.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A1BC201B8BBFDC00B32D83 /* FuzzyLang.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65A1BC281B8BBFDC00B32D83 /* FuzzyLang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A1BC1D1B8BBFDC00B32D83 /* FuzzyLang.framework */; };
 		65A1BC2D1B8BBFDC00B32D83 /* FuzzyLangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1BC2C1B8BBFDC00B32D83 /* FuzzyLangTests.swift */; };
@@ -23,6 +30,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6506D6891B8C34E9007DBF56 /* FLVerb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLVerb.swift; sourceTree = "<group>"; };
+		6506D68A1B8C34E9007DBF56 /* FLAdjective.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLAdjective.swift; sourceTree = "<group>"; };
+		6506D68B1B8C34E9007DBF56 /* FLAdverb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLAdverb.swift; sourceTree = "<group>"; };
+		6506D68C1B8C34E9007DBF56 /* FLArticle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLArticle.swift; sourceTree = "<group>"; };
+		6506D68D1B8C34E9007DBF56 /* FLNoun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLNoun.swift; sourceTree = "<group>"; };
+		6506D68E1B8C34E9007DBF56 /* FLPreposition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLPreposition.swift; sourceTree = "<group>"; };
+		6506D68F1B8C34E9007DBF56 /* FLWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLWord.swift; sourceTree = "<group>"; };
 		65A1BC1D1B8BBFDC00B32D83 /* FuzzyLang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FuzzyLang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A1BC201B8BBFDC00B32D83 /* FuzzyLang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FuzzyLang.h; sourceTree = "<group>"; };
 		65A1BC221B8BBFDC00B32D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,6 +87,13 @@
 			children = (
 				65A1BC201B8BBFDC00B32D83 /* FuzzyLang.h */,
 				65A1BC221B8BBFDC00B32D83 /* Info.plist */,
+				6506D68F1B8C34E9007DBF56 /* FLWord.swift */,
+				6506D68D1B8C34E9007DBF56 /* FLNoun.swift */,
+				6506D6891B8C34E9007DBF56 /* FLVerb.swift */,
+				6506D68E1B8C34E9007DBF56 /* FLPreposition.swift */,
+				6506D68A1B8C34E9007DBF56 /* FLAdjective.swift */,
+				6506D68B1B8C34E9007DBF56 /* FLAdverb.swift */,
+				6506D68C1B8C34E9007DBF56 /* FLArticle.swift */,
 			);
 			path = FuzzyLang;
 			sourceTree = "<group>";
@@ -142,6 +163,7 @@
 		65A1BC141B8BBFDC00B32D83 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = FuzzyLang;
 				TargetAttributes = {
@@ -194,6 +216,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6506D6941B8C34E9007DBF56 /* FLNoun.swift in Sources */,
+				6506D6931B8C34E9007DBF56 /* FLArticle.swift in Sources */,
+				6506D6921B8C34E9007DBF56 /* FLAdverb.swift in Sources */,
+				6506D6961B8C34E9007DBF56 /* FLWord.swift in Sources */,
+				6506D6901B8C34E9007DBF56 /* FLVerb.swift in Sources */,
+				6506D6951B8C34E9007DBF56 /* FLPreposition.swift in Sources */,
+				6506D6911B8C34E9007DBF56 /* FLAdjective.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +337,7 @@
 		65A1BC321B8BBFDC00B32D83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -320,12 +350,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.FuzzyLang.FuzzyLang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		65A1BC331B8BBFDC00B32D83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
