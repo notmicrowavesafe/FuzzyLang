@@ -1,5 +1,5 @@
 //
-//  FLWord.swift
+//  FLVerbPhrase.swift
 //  FuzzyLang
 //
 //  Created by Tommy on 8/25/15.
@@ -8,6 +8,5 @@
 
 import UIKit
 
-class FLWord {
-    var word: String! = nil
+class FLVerbPhrase: FLPhrase {
 }
