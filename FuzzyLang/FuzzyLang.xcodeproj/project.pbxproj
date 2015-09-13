@@ -20,6 +20,9 @@
 		6506D69E1B8C3710007DBF56 /* FLSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6506D69D1B8C3710007DBF56 /* FLSentence.swift */; };
 		6506D6A01B8C371C007DBF56 /* FLParagraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6506D69F1B8C371C007DBF56 /* FLParagraph.swift */; };
 		6506D6A61B8C3760007DBF56 /* FLDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6506D6A51B8C3760007DBF56 /* FLDictionary.swift */; };
+		657DD1B81BA5415500404DA1 /* FLStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DD1B71BA5415500404DA1 /* FLStatement.swift */; settings = {ASSET_TAGS = (); }; };
+		657DD1BA1BA541A500404DA1 /* FLPronoun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DD1B91BA541A500404DA1 /* FLPronoun.swift */; settings = {ASSET_TAGS = (); }; };
+		657DD1BC1BA541B600404DA1 /* FLText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DD1BB1BA541B600404DA1 /* FLText.swift */; settings = {ASSET_TAGS = (); }; };
 		65A1BC211B8BBFDC00B32D83 /* FuzzyLang.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A1BC201B8BBFDC00B32D83 /* FuzzyLang.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65A1BC281B8BBFDC00B32D83 /* FuzzyLang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A1BC1D1B8BBFDC00B32D83 /* FuzzyLang.framework */; };
 		65A1BC2D1B8BBFDC00B32D83 /* FuzzyLangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1BC2C1B8BBFDC00B32D83 /* FuzzyLangTests.swift */; };
@@ -49,6 +52,9 @@
 		6506D69D1B8C3710007DBF56 /* FLSentence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLSentence.swift; sourceTree = "<group>"; };
 		6506D69F1B8C371C007DBF56 /* FLParagraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLParagraph.swift; sourceTree = "<group>"; };
 		6506D6A51B8C3760007DBF56 /* FLDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLDictionary.swift; sourceTree = "<group>"; };
+		657DD1B71BA5415500404DA1 /* FLStatement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLStatement.swift; sourceTree = "<group>"; };
+		657DD1B91BA541A500404DA1 /* FLPronoun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLPronoun.swift; sourceTree = "<group>"; };
+		657DD1BB1BA541B600404DA1 /* FLText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLText.swift; sourceTree = "<group>"; };
 		65A1BC1D1B8BBFDC00B32D83 /* FuzzyLang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FuzzyLang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A1BC201B8BBFDC00B32D83 /* FuzzyLang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FuzzyLang.h; sourceTree = "<group>"; };
 		65A1BC221B8BBFDC00B32D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,6 +106,8 @@
 				65A1BC201B8BBFDC00B32D83 /* FuzzyLang.h */,
 				65A1BC221B8BBFDC00B32D83 /* Info.plist */,
 				6506D6A51B8C3760007DBF56 /* FLDictionary.swift */,
+				657DD1BB1BA541B600404DA1 /* FLText.swift */,
+				657DD1B71BA5415500404DA1 /* FLStatement.swift */,
 				6506D69F1B8C371C007DBF56 /* FLParagraph.swift */,
 				6506D69D1B8C3710007DBF56 /* FLSentence.swift */,
 				6506D6971B8C360F007DBF56 /* FLPhrase.swift */,
@@ -107,6 +115,7 @@
 				6506D69B1B8C368F007DBF56 /* FLVerbPhrase.swift */,
 				6506D68F1B8C34E9007DBF56 /* FLWord.swift */,
 				6506D68D1B8C34E9007DBF56 /* FLNoun.swift */,
+				657DD1B91BA541A500404DA1 /* FLPronoun.swift */,
 				6506D6891B8C34E9007DBF56 /* FLVerb.swift */,
 				6506D68E1B8C34E9007DBF56 /* FLPreposition.swift */,
 				6506D68A1B8C34E9007DBF56 /* FLAdjective.swift */,
@@ -241,12 +250,15 @@
 				6506D6921B8C34E9007DBF56 /* FLAdverb.swift in Sources */,
 				6506D69A1B8C3684007DBF56 /* FLNounPhrase.swift in Sources */,
 				6506D6961B8C34E9007DBF56 /* FLWord.swift in Sources */,
+				657DD1BA1BA541A500404DA1 /* FLPronoun.swift in Sources */,
 				6506D6901B8C34E9007DBF56 /* FLVerb.swift in Sources */,
 				6506D6A61B8C3760007DBF56 /* FLDictionary.swift in Sources */,
 				6506D6A01B8C371C007DBF56 /* FLParagraph.swift in Sources */,
 				6506D6951B8C34E9007DBF56 /* FLPreposition.swift in Sources */,
 				6506D6981B8C360F007DBF56 /* FLPhrase.swift in Sources */,
 				6506D6911B8C34E9007DBF56 /* FLAdjective.swift in Sources */,
+				657DD1BC1BA541B600404DA1 /* FLText.swift in Sources */,
+				657DD1B81BA5415500404DA1 /* FLStatement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

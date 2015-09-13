@@ -1,13 +1,13 @@
 //
-//  FLParagraph.swift
+//  FLStatement.swift
 //  FuzzyLang
 //
-//  Created by Tommy on 8/25/15.
+//  Created by Tommy on 9/13/15.
 //  Copyright © 2015 FuzzyLang. All rights reserved.
 //
 
 import UIKit
 
-class FLParagraph: FLStatement {
+class FLStatement {
     var sentences: Array<FLSentence>! = nil
 }

@@ -10,4 +10,8 @@ import UIKit
 
 class FLPhrase {
     var words: Array<FLWord>! = nil
+    
+    init(phrase: NSString){
+        
+    }
 }
