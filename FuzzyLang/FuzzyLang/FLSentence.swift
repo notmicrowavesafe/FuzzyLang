@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FLSentence {
+class FLSentence{
     var subject: FLNounPhrase! = nil
     var predicate: FLVerbPhrase! = nil
 }

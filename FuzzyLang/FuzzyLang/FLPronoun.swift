@@ -6,4 +6,12 @@
 //  Copyright © 2015 FuzzyLang. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+enum pronoun{
+    
+}
+
+class FLPronoun: FLWord {
+    
+}

@@ -8,6 +8,6 @@
 
 import UIKit
 
-class FLWord {
+class FLWord{
     var word: String! = nil
 }

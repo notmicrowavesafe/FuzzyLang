@@ -8,5 +8,9 @@
 
 import UIKit
 
-class FLArticle: FLAdjective {
+enum adjective{
+    
+}
+
+class FLArticle: FLWord {
 }

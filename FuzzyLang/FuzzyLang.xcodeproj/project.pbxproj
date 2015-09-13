@@ -119,8 +119,8 @@
 				6506D6891B8C34E9007DBF56 /* FLVerb.swift */,
 				6506D68E1B8C34E9007DBF56 /* FLPreposition.swift */,
 				6506D68A1B8C34E9007DBF56 /* FLAdjective.swift */,
-				6506D68B1B8C34E9007DBF56 /* FLAdverb.swift */,
 				6506D68C1B8C34E9007DBF56 /* FLArticle.swift */,
+				6506D68B1B8C34E9007DBF56 /* FLAdverb.swift */,
 			);
 			path = FuzzyLang;
 			sourceTree = "<group>";

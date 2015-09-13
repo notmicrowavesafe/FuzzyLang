@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FLPhrase {
+class FLPhrase{
     var words: Array<FLWord>! = nil
     
     init(phrase: NSString){
