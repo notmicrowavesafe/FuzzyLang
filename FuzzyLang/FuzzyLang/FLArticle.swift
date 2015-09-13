@@ -8,9 +8,11 @@
 
 import UIKit
 
-enum adjective{
-    
+enum article{
+    case definite, indefinite
 }
 
 class FLArticle: FLWord {
+    static let FLArticleDefinite = article.definite
+    static let FLArticleIndefinite = article.indefinite
 }
